@@ -5,7 +5,6 @@ Falls Sie eine andere Version des Buchs besitzen, finden Sie den Beispielcode in
 > * [2. Auflage: `book-monkey3`](https://github.com/angular-buch/book-monkey3)
 > * [3. Auflage: `book-monkey4`](https://github.com/angular-buch/book-monkey4)
 
-<br>
 
 # BookMonkey 5
 ![Monkey](monkey-thinking.png)
@@ -82,6 +81,12 @@ Auch für diese REST-Schnittstelle stellen wir den Quelltext bereit:
 * __Monkey 5 API__
   * [Oberfläche](https://api5.angular-buch.com/)
   * [Quelltext auf GitHub](https://github.com/angular-buch/api5)
+
+Der BookMonkey verwendet die vorbereiteten Stylesheets aus dem NPM-Paket __book-monkey-styles__. Den Quelltext stellen wir hier bereit:
+
+* __book-monkey-styles__
+  * [Paket auf NPM](https://www.npmjs.com/package/book-monkey-styles)
+  * [Quelltext auf GitHub](https://github.com/angular-buch/book-monkey-styles)
 
 
 Sie können die jeweiligen Änderungen hier vergleichen:  
