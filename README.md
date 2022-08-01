@@ -10,7 +10,7 @@ Falls Sie eine andere Version des Buchs besitzen, finden Sie den Beispielcode in
 ![Monkey](monkey-thinking.png)
 
 Der __"BookMonkey"__ ist das Demo-Projekt zum deutschsprachigen Buch ["Angular"](https://angular-buch.com/).
-Mithilfe dieses Buchs werden Sie Googles neuestes Framework kennenlernen.
+Mithilfe dieses Buchs lernen Sie Googles Webframework kennen.
 Wir laden Sie dazu ein, mit den aktuellsten Technologien moderne Single-Page-Anwendungen zu erstellen.
 
 Anhand des Beispielprojekts __BookMonkey__ führen wir Sie schrittweise an die Entwicklung von Angular-Anwendungen heran.
@@ -66,19 +66,19 @@ Hier finden sie alle Zwischenstände des BookMonkey 5:
 * __Kapitel 24 – Guards: Routen absichern__
   * [Demo](https://16-guards-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/16-guards)
-* __Kapitel ?? – I18N: Internationalisierung__
+<!--* __Kapitel ?? – I18N: Internationalisierung__
   * Demo (TODO)
-  * Quelltext auf GitHub (TODO)
+  * Quelltext auf GitHub (TODO)-->
 * __Kapitel 26.4 – Oberflächentests mit Cypress__
   * [Quelltext auf GitHub](https://github.com/book-monkey5/99-cypress)
 * __Kapitel 33 – Progressive Web Apps (PWA)__
   * [Demo](https://98-pwa-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/98-pwa)
 
-Als Datenquelle dient uns die __Monkey 5 API__.  
-Auch für diese REST-Schnittstelle stellen wir den Quelltext bereit:
+Als zentrale Datenquelle dient uns die __BookMonkey 5 API__.  
+Auch für diese HTTP-Schnittstelle stellen wir den Quelltext bereit:
 
-* __Monkey 5 API__
+* __BookMonkey 5 API__
   * [Oberfläche](https://api5.angular-buch.com/)
   * [Quelltext auf GitHub](https://github.com/angular-buch/api5)
 
@@ -88,9 +88,9 @@ Der BookMonkey verwendet die vorbereiteten Stylesheets aus dem NPM-Paket __book-
   * [Paket auf NPM](https://www.npmjs.com/package/book-monkey-styles)
   * [Quelltext auf GitHub](https://github.com/angular-buch/book-monkey-styles)
 
-
+<!--
 Sie können die jeweiligen Änderungen hier vergleichen:  
-__[BookMonkey 5 Diffs (TODO)](TODO)__
+__[BookMonkey 5 Diffs (TODO)](TODO)__-->
 
 
 # Das Buch
