@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>BM5 Diff | 09-interceptors ➔ 10-template-driven-forms</title>
 
-    <style>.d2h-moved-tag, label.d2h-file-collapse { display: none !important; }</style>
+    
 
     <style>.hljs{display:block;overflow-x:auto;padding:0.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:bold}.hljs-number,.hljs-literal,.hljs-variable,.hljs-template-variable,.hljs-tag .hljs-attr{color:#008080}.hljs-string,.hljs-doctag{color:#d14}.hljs-title,.hljs-section,.hljs-selector-id{color:#900;font-weight:bold}.hljs-subst{font-weight:normal}.hljs-type,.hljs-class .hljs-title{color:#458;font-weight:bold}.hljs-tag,.hljs-name,.hljs-attribute{color:#000080;font-weight:normal}.hljs-regexp,.hljs-link{color:#009926}.hljs-symbol,.hljs-bullet{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:bold}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold} </style>
 
@@ -21,7 +21,7 @@
         const targetElement = document.getElementById('diff');
         const diff2htmlUi = new Diff2HtmlUI(targetElement);
         diff2htmlUi.fileListToggle(false);
-        diff2htmlUi.fileContentToggle();
+        
         diff2htmlUi.synchronisedScroll();
         diff2htmlUi.highlightCode();
       });
@@ -31,142 +31,14 @@
     <h1>09-interceptors ➔ 10-template-driven-forms</h1>
 
     <div id="diff">
-      <div class="d2h-file-list-wrapper">
-    <div class="d2h-file-list-header">
-        <span class="d2h-file-list-title">Files changed (10)</span>
-        <a class="d2h-file-switch d2h-hide">hide</a>
-        <a class="d2h-file-switch d2h-show">show</a>
-    </div>
-    <ol class="d2h-file-list">
-    <li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-225410" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/admin-routing.module.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+20</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-048265" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/admin.module.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+20</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-866798" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-create/book-create.component.html</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+3</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-398438" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-create/book-create.component.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+25</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-710654" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-form/book-form.component.html</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+28</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-149142" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-form/book-form.component.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+24</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-566622" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/app.component.html</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+1</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-337573" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/app.module.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+3</span>
-          <span class="d2h-lines-deleted">-1</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-295809" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/books/books.module.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+0</span>
-          <span class="d2h-lines-deleted">-4</span>
-      </span>
-    </span>
-</li>
-<li class="d2h-file-list-line">
-    <span class="d2h-file-name-wrapper">
-      <svg aria-hidden="true" class="d2h-icon d2h-moved" height="16" title="renamed" version="1.1"
-           viewBox="0 0 14 16" width="14">
-          <path d="M6 9H3V7h3V4l5 4-5 4V9z m8-7v12c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1z m-1 0H1v12h12V2z"></path>
-      </svg>      <a href="#d2h-129928" class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/shared/book-store.service.ts</a>
-      <span class="d2h-file-stats">
-          <span class="d2h-lines-added">+4</span>
-          <span class="d2h-lines-deleted">-0</span>
-      </span>
-    </span>
-</li>
-    </ol>
-</div><div class="d2h-wrapper">
-    <div id="d2h-225410" class="d2h-file-wrapper" data-lang="ts">
+      <div class="d2h-wrapper">
+    <div id="d2h-854590" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/admin-routing.module.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/admin/admin-routing.module.ts</span>
+    <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -603,13 +475,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-048265" class="d2h-file-wrapper" data-lang="ts">
+<div id="d2h-901367" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/admin.module.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/admin/admin.module.ts</span>
+    <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -1046,13 +918,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-866798" class="d2h-file-wrapper" data-lang="html">
+<div id="d2h-775250" class="d2h-file-wrapper" data-lang="html">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-create/book-create.component.html</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/admin/book-create/book-create.component.html</span>
+    <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -1149,13 +1021,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-398438" class="d2h-file-wrapper" data-lang="ts">
+<div id="d2h-201254" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-create/book-create.component.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/admin/book-create/book-create.component.ts</span>
+    <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -1692,13 +1564,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-710654" class="d2h-file-wrapper" data-lang="html">
+<div id="d2h-498306" class="d2h-file-wrapper" data-lang="html">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-form/book-form.component.html</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/admin/book-form/book-form.component.html</span>
+    <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -2295,13 +2167,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-149142" class="d2h-file-wrapper" data-lang="ts">
+<div id="d2h-547818" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/admin/book-form/book-form.component.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/admin/book-form/book-form.component.ts</span>
+    <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -2818,13 +2690,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-566622" class="d2h-file-wrapper" data-lang="html">
+<div id="d2h-130594" class="d2h-file-wrapper" data-lang="html">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/app.component.html</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/app.component.html</span>
+    <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -3001,13 +2873,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-337573" class="d2h-file-wrapper" data-lang="ts">
+<div id="d2h-299749" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/app.module.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/app.module.ts</span>
+    <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -3021,7 +2893,7 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -8,6 +8,7 @@</div>
+        <div class="d2h-code-side-line">@@ -8,6 +8,7 @@ import { BooksModule } from &#x27;.&#x2F;books&#x2F;books.module&#x27;;</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
@@ -3096,7 +2968,7 @@
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -20,7 +21,8 @@</div>
+        <div class="d2h-code-side-line">@@ -20,7 +21,8 @@ import { AuthInterceptor } from &#x27;.&#x2F;shared&#x2F;auth.interceptor&#x27;;</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
@@ -3354,13 +3226,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-295809" class="d2h-file-wrapper" data-lang="ts">
+<div id="d2h-721855" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/books/books.module.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/books/books.module.ts</span>
+    <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -3374,7 +3246,7 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -15,10 +15,6 @@</div>
+        <div class="d2h-code-side-line">@@ -15,10 +15,6 @@ import { BookDetailsComponent } from &#x27;.&#x2F;book-details&#x2F;book-details.component&#x27;;</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
@@ -3597,13 +3469,13 @@
         </div>
     </div>
 </div>
-<div id="d2h-129928" class="d2h-file-wrapper" data-lang="ts">
+<div id="d2h-981768" class="d2h-file-wrapper" data-lang="ts">
     <div class="d2h-file-header">
       <span class="d2h-file-name-wrapper">
     <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
         <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
-    </svg>    <span class="d2h-file-name">{09-interceptors → 10-template-driven-forms}/src/app/shared/book-store.service.ts</span>
-    <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+    </svg>    <span class="d2h-file-name">src/app/shared/book-store.service.ts</span>
+    <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
 <label class="d2h-file-collapse">
     <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
     Viewed
@@ -3617,7 +3489,7 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -31,5 +31,9 @@</div>
+        <div class="d2h-code-side-line">@@ -31,5 +31,9 @@ export class BookStoreService {</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
