@@ -451,7 +451,7 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -1,4 +1,7 @@</div>
+        <div class="d2h-code-side-line">@@ -1,6 +1,7 @@</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
@@ -510,7 +510,7 @@
     <td class="d2h-del d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">  &lt;<del>bm</del>-<del>book-list *ngIf=&quot;!book&quot; (selectBook)=&quot;showDetails($event)&quot;</del>&gt;&lt;&#x2F;<del>bm</del>-<del>book-list</del>&gt;</span>
+            <span class="d2h-code-line-ctn">  &lt;<del>bm</del>-<del>book</del>-<del>list *ngIf=&quot;!book&quot;</del></span>
         </div>
     </td>
 </tr><tr>
@@ -520,12 +520,32 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">  &lt;bm-book-details *ngIf=&quot;book&quot; [book]=&quot;book&quot; (leave)=&quot;showList()&quot;&gt;&lt;&#x2F;bm-book-details&gt;</span>
+            <span class="d2h-code-line-ctn">    (selectBook)=&quot;showDetails($event)&quot;&gt;&lt;&#x2F;bm-book-list&gt;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-del">
+      4
+    </td>
+    <td class="d2h-del">
+        <div class="d2h-code-side-line">
+            <span class="d2h-code-line-prefix">-</span>
+            <span class="d2h-code-line-ctn">  &lt;bm-book-details *ngIf=&quot;book&quot;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-del">
+      5
+    </td>
+    <td class="d2h-del">
+        <div class="d2h-code-side-line">
+            <span class="d2h-code-line-prefix">-</span>
+            <span class="d2h-code-line-ctn">    (leave)=&quot;showList()&quot; [book]=&quot;book&quot;&gt;&lt;&#x2F;bm-book-details&gt;</span>
         </div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      4
+      6
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -604,7 +624,27 @@
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  &lt;<ins>router</ins>-<ins>outlet</ins>&gt;&lt;&#x2F;<ins>router</ins>-<ins>outlet</ins>&gt;</span>
+            <span class="d2h-code-line-ctn">  &lt;<ins>router</ins>-<ins>outlet&gt;&lt;&#x2F;router</ins>-<ins>outlet&gt;</ins></span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
+      
+    </td>
+    <td class="d2h-cntx d2h-emptyplaceholder">
+        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
+      
+    </td>
+    <td class="d2h-cntx d2h-emptyplaceholder">
+        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
