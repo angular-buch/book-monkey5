@@ -2182,7 +2182,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  constructor(private auth: AuthService) {}</span>
+            <span class="d2h-code-line-ctn">  constructor(private authService: AuthService) {}</span>
         </div>
     </td>
 </tr><tr>
@@ -2262,7 +2262,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    if (this.auth.isAuthenticated) {</span>
+            <span class="d2h-code-line-ctn">    if (this.authService.isAuthenticated) {</span>
         </div>
     </td>
 </tr><tr>
@@ -2282,7 +2282,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">      const newReq = request.clone({</span>
+            <span class="d2h-code-line-ctn">      const reqWithToken = request.clone({</span>
         </div>
     </td>
 </tr><tr>
@@ -2342,7 +2342,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">      return next.handle(newReq);</span>
+            <span class="d2h-code-line-ctn">      return next.handle(reqWithToken);</span>
         </div>
     </td>
 </tr><tr>
