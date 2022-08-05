@@ -77,6 +77,12 @@ Hier finden sie alle Zwischenstände des BookMonkey 5:
 * __Kapitel 33 – Progressive Web Apps (PWA)__
   * [Demo](https://98-pwa-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/98-pwa)
+* Zusammenfassung als __Differenzansicht__
+  * Für die einzelnen Entwicklungsschritte aus dem Beispielprojekt bieten wir eine __Differenzansicht__ an.
+  So können Sie die Änderungen am Code zwischen den einzelnen Kapiteln genau nachvollziehen:  
+  ⭐️ __[BookMonkey 5 Diffs](https://book-monkey5.angular-buch.com/diffs/)__ ⭐️
+
+---
 
 Als zentrale Datenquelle dient uns die __BookMonkey 5 API__.  
 Auch für diese HTTP-Schnittstelle stellen wir den Quelltext bereit:
@@ -90,10 +96,6 @@ Der BookMonkey verwendet die vorbereiteten Stylesheets aus dem NPM-Paket __book-
 * __book-monkey-styles__
   * [Paket auf NPM](https://www.npmjs.com/package/book-monkey-styles)
   * [Quelltext auf GitHub](https://github.com/angular-buch/book-monkey-styles)
-
-<!--
-Sie können die jeweiligen Änderungen hier vergleichen:  
-__[BookMonkey 5 Diffs (TODO)](TODO)__-->
 
 
 # Das Buch
