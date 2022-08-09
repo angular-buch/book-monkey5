@@ -464,7 +464,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  &lt;button class=&quot;red&quot; (click)=&quot;removeBook()&quot;&gt;</span>
+            <span class="d2h-code-line-ctn">  &lt;button class=&quot;red&quot; (click)=&quot;removeBook(book.isbn)&quot;&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -957,7 +957,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  removeBook() {</span>
+            <span class="d2h-code-line-ctn">  removeBook(isbn: string) {</span>
         </div>
     </td>
 </tr><tr>
@@ -967,7 +967,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    if (this.book &amp;&amp; window.confirm(&#x27;Remove book?&#x27;)) {</span>
+            <span class="d2h-code-line-ctn">    if (window.confirm(&#x27;Remove book?&#x27;)) {</span>
         </div>
     </td>
 </tr><tr>
@@ -977,7 +977,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">      this.service.remove(this.book.isbn).subscribe(() =&gt; {</span>
+            <span class="d2h-code-line-ctn">      this.service.remove(isbn).subscribe(() =&gt; {</span>
         </div>
     </td>
 </tr><tr>
