@@ -14,6 +14,7 @@ https://13-pipes-bm5.angular-buch.com
 https://14-directives-bm5.angular-buch.com
 https://15-lazyloading-bm5.angular-buch.com
 https://16-guards-bm5.angular-buch.com
+https://95-ssr-bm5.angular-buch.com
 https://97-ngrx-bm5.angular-buch.com
 https://98-pwa-bm5.angular-buch.com
 https://api5.angular-buch.com/
