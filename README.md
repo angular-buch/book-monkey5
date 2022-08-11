@@ -71,6 +71,9 @@ Hier finden sie alle Zwischenstände des BookMonkey 5:
   * Quelltext auf GitHub (TODO)-->
 * __Kapitel 26.4 – Oberflächentests mit Cypress__
   * [Quelltext auf GitHub](https://github.com/book-monkey5/99-cypress)
+* __Kapitel XX – Server-Side Rendering mit Angular Universal__
+  * [Demo](https://95-ssr-bm5.angular-buch.com)
+  * [Quelltext auf GitHub](https://github.com/book-monkey5/95-ssr)
 * __Kapitel 32 – State Management mit Redux und NgRx__
   * [Demo](https://97-ngrx-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/97-ngrx)
