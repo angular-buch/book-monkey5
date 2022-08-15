@@ -250,7 +250,17 @@
     <td class="d2h-del d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">import { ActivatedRoute, Router } from &#x27;@angular&#x2F;router&#x27;;</span>
+            <span class="d2h-code-line-ctn">import { <del>ActivatedRoute</del>, <del>Router</del> } from &#x27;@angular&#x2F;<del>router</del>&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
+      
+    </td>
+    <td class="d2h-cntx d2h-emptyplaceholder">
+        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
@@ -291,16 +301,6 @@
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
             <span class="d2h-code-line-ctn">import { Book } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book&#x27;;</span>
-        </div>
-    </td>
-</tr><tr>
-    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
-      
-    </td>
-    <td class="d2h-cntx d2h-emptyplaceholder">
-        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
-            <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
@@ -494,17 +494,17 @@
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">import { ActivatedRoute, Router<ins>,</ins> <ins>RouterModule </ins>} from &#x27;@angular&#x2F;router&#x27;;</span>
+            <span class="d2h-code-line-ctn">import { <ins>AsyncPipe</ins>, <ins>DatePipe,</ins> <ins>NgForOf, NgIf </ins>} from &#x27;@angular&#x2F;<ins>common</ins>&#x27;;</span>
         </div>
     </td>
 </tr><tr>
-    <td class="d2h-code-side-linenumber d2h-cntx">
+    <td class="d2h-code-side-linenumber d2h-ins">
       3
     </td>
-    <td class="d2h-cntx">
+    <td class="d2h-ins">
         <div class="d2h-code-side-line">
-            <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">import { Observable } from &#x27;rxjs&#x27;;</span>
+            <span class="d2h-code-line-prefix">+</span>
+            <span class="d2h-code-line-ctn">import { ActivatedRoute, Router, RouterModule } from &#x27;@angular&#x2F;router&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -514,7 +514,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn"><br></span>
+            <span class="d2h-code-line-ctn">import { Observable } from &#x27;rxjs&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -524,7 +524,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">import { BookStoreService } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book-store.service&#x27;;</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
@@ -534,17 +534,17 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">import { Book } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book&#x27;;</span>
+            <span class="d2h-code-line-ctn">import { BookStoreService } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book-store.service&#x27;;</span>
         </div>
     </td>
 </tr><tr>
-    <td class="d2h-code-side-linenumber d2h-ins">
+    <td class="d2h-code-side-linenumber d2h-cntx">
       7
     </td>
-    <td class="d2h-ins">
+    <td class="d2h-cntx">
         <div class="d2h-code-side-line">
-            <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">import { AsyncPipe, DatePipe, NgForOf, NgIf } from &#x27;@angular&#x2F;common&#x27;;</span>
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn">import { Book } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -1137,7 +1137,7 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -1,10 +1,15 @@</div>
+        <div class="d2h-code-side-line">@@ -1,10 +1,16 @@</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
@@ -1157,6 +1157,16 @@
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
             <span class="d2h-code-line-ctn">import { Component, Input } from &#x27;@angular&#x2F;core&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
+      
+    </td>
+    <td class="d2h-cntx d2h-emptyplaceholder">
+        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
@@ -1330,7 +1340,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">import { RouterLink, RouterModule } from &#x27;@angular&#x2F;router&#x27;;</span>
+            <span class="d2h-code-line-ctn">import { RouterModule } from &#x27;@angular&#x2F;router&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -1340,17 +1350,17 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">import { IsbnPipe } from &#x27;..&#x2F;..&#x2F;shared&#x2F;isbn.pipe&#x27;;</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
-    <td class="d2h-code-side-linenumber d2h-cntx">
+    <td class="d2h-code-side-linenumber d2h-ins">
       5
     </td>
-    <td class="d2h-cntx">
+    <td class="d2h-ins">
         <div class="d2h-code-side-line">
-            <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">import { Book } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book&#x27;;</span>
+            <span class="d2h-code-line-prefix">+</span>
+            <span class="d2h-code-line-ctn">import { IsbnPipe } from &#x27;..&#x2F;..&#x2F;shared&#x2F;isbn.pipe&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -1360,7 +1370,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn"><br></span>
+            <span class="d2h-code-line-ctn">import { Book } from &#x27;..&#x2F;..&#x2F;shared&#x2F;book&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -1370,7 +1380,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">@Component({</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
@@ -1380,7 +1390,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">  selector: &#x27;bm-book-list-item&#x27;,</span>
+            <span class="d2h-code-line-ctn">@Component({</span>
         </div>
     </td>
 </tr><tr>
@@ -1390,12 +1400,22 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn">  selector: &#x27;bm-book-list-item&#x27;,</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-cntx">
+      10
+    </td>
+    <td class="d2h-cntx">
+        <div class="d2h-code-side-line">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
             <span class="d2h-code-line-ctn">  templateUrl: &#x27;.&#x2F;book-list-item.component.html&#x27;,</span>
         </div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-ins d2h-change">
-      10
+      11
     </td>
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
@@ -1405,7 +1425,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-ins">
-      11
+      12
     </td>
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
@@ -1415,7 +1435,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-ins">
-      12
+      13
     </td>
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
@@ -1425,7 +1445,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      13
+      14
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1435,7 +1455,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      14
+      15
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1445,7 +1465,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      15
+      16
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
