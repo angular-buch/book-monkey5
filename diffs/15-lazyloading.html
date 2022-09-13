@@ -411,11 +411,11 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -12,6 +12,14 @@ const routes: Routes = [</div>
+        <div class="d2h-code-side-line">@@ -13,6 +13,14 @@ const routes: Routes = [</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      12
+      13
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -425,7 +425,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      13
+      14
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -435,7 +435,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      14
+      15
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -525,7 +525,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      15
+      16
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -535,7 +535,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      16
+      17
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -545,7 +545,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      17
+      18
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -569,7 +569,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      12
+      13
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -579,7 +579,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      13
+      14
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -589,22 +589,12 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      14
+      15
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
             <span class="d2h-code-line-ctn">  },</span>
-        </div>
-    </td>
-</tr><tr>
-    <td class="d2h-code-side-linenumber d2h-ins">
-      15
-    </td>
-    <td class="d2h-ins">
-        <div class="d2h-code-side-line">
-            <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  {</span>
         </div>
     </td>
 </tr><tr>
@@ -614,7 +604,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    path: &#x27;books&#x27;,</span>
+            <span class="d2h-code-line-ctn">  {</span>
         </div>
     </td>
 </tr><tr>
@@ -624,7 +614,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    loadChildren: () =&gt; import(&#x27;.&#x2F;books&#x2F;books.module&#x27;).then(m =&gt; m.BooksModule)</span>
+            <span class="d2h-code-line-ctn">    path: &#x27;books&#x27;,</span>
         </div>
     </td>
 </tr><tr>
@@ -634,7 +624,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  },</span>
+            <span class="d2h-code-line-ctn">    loadChildren: () =&gt; import(&#x27;.&#x2F;books&#x2F;books.module&#x27;).then(m =&gt; m.BooksModule)</span>
         </div>
     </td>
 </tr><tr>
@@ -644,7 +634,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  {</span>
+            <span class="d2h-code-line-ctn">  },</span>
         </div>
     </td>
 </tr><tr>
@@ -654,7 +644,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    path: &#x27;admin&#x27;,</span>
+            <span class="d2h-code-line-ctn">  {</span>
         </div>
     </td>
 </tr><tr>
@@ -664,7 +654,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    loadChildren: () =&gt; import(&#x27;.&#x2F;admin&#x2F;admin.module&#x27;).then(m =&gt; m.AdminModule)</span>
+            <span class="d2h-code-line-ctn">    path: &#x27;admin&#x27;,</span>
         </div>
     </td>
 </tr><tr>
@@ -674,17 +664,17 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  }</span>
+            <span class="d2h-code-line-ctn">    loadChildren: () =&gt; import(&#x27;.&#x2F;admin&#x2F;admin.module&#x27;).then(m =&gt; m.AdminModule)</span>
         </div>
     </td>
 </tr><tr>
-    <td class="d2h-code-side-linenumber d2h-cntx">
+    <td class="d2h-code-side-linenumber d2h-ins">
       23
     </td>
-    <td class="d2h-cntx">
+    <td class="d2h-ins">
         <div class="d2h-code-side-line">
-            <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">];</span>
+            <span class="d2h-code-line-prefix">+</span>
+            <span class="d2h-code-line-ctn">  }</span>
         </div>
     </td>
 </tr><tr>
@@ -694,12 +684,22 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn"><br></span>
+            <span class="d2h-code-line-ctn">];</span>
         </div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
       25
+    </td>
+    <td class="d2h-cntx">
+        <div class="d2h-code-side-line">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-cntx">
+      26
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -833,7 +833,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn"><br></span>
+            <span class="d2h-code-line-ctn">@NgModule({</span>
         </div>
     </td>
 </tr><tr>
@@ -843,17 +843,17 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">@NgModule({</span>
+            <span class="d2h-code-line-ctn">  declarations: [</span>
         </div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -21,8 +19,6 @@ import { AdminModule } from &#x27;.&#x2F;admin&#x2F;admin.module&#x27;;</div>
+        <div class="d2h-code-side-line">@@ -20,8 +18,6 @@ import { AdminModule } from &#x27;.&#x2F;admin&#x2F;admin.module&#x27;;</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      21
+      20
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -863,7 +863,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      22
+      21
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -873,7 +873,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      23
+      22
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -883,7 +883,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-del">
-      24
+      23
     </td>
     <td class="d2h-del">
         <div class="d2h-code-side-line">
@@ -893,7 +893,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-del">
-      25
+      24
     </td>
     <td class="d2h-del">
         <div class="d2h-code-side-line">
@@ -903,7 +903,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      26
+      25
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -913,7 +913,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      27
+      26
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -923,7 +923,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      28
+      27
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1042,7 +1042,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn"><br></span>
+            <span class="d2h-code-line-ctn">@NgModule({</span>
         </div>
     </td>
 </tr><tr>
@@ -1052,7 +1052,7 @@
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">&nbsp;</span>
-            <span class="d2h-code-line-ctn">@NgModule({</span>
+            <span class="d2h-code-line-ctn">  declarations: [</span>
         </div>
     </td>
 </tr><tr>
@@ -1062,7 +1062,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      19
+      18
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1072,7 +1072,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      20
+      19
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1082,7 +1082,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      21
+      20
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1112,7 +1112,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      22
+      21
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1122,7 +1122,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      23
+      22
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1132,7 +1132,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      24
+      23
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1167,11 +1167,11 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -5,11 +5,11 @@ import { BookListComponent } from &#x27;.&#x2F;book-list&#x2F;book-list.component&#x27;;</div>
+        <div class="d2h-code-side-line">@@ -6,11 +6,11 @@ import { BookListComponent } from &#x27;.&#x2F;book-list&#x2F;book-list.component&#x27;;</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      5
+      6
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1181,7 +1181,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      6
+      7
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1191,7 +1191,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      7
+      8
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1201,7 +1201,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-del d2h-change">
-      8
+      9
     </td>
     <td class="d2h-del d2h-change">
         <div class="d2h-code-side-line">
@@ -1211,7 +1211,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      9
+      10
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1221,7 +1221,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      10
+      11
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1231,7 +1231,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      11
+      12
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1241,7 +1241,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-del d2h-change">
-      12
+      13
     </td>
     <td class="d2h-del d2h-change">
         <div class="d2h-code-side-line">
@@ -1251,7 +1251,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      13
+      14
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1261,7 +1261,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      14
+      15
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1271,7 +1271,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      15
+      16
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1295,7 +1295,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      5
+      6
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1305,7 +1305,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      6
+      7
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1315,7 +1315,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      7
+      8
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1325,7 +1325,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-ins d2h-change">
-      8
+      9
     </td>
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
@@ -1335,7 +1335,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      9
+      10
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1345,7 +1345,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      10
+      11
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1355,7 +1355,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      11
+      12
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1365,7 +1365,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-ins d2h-change">
-      12
+      13
     </td>
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
@@ -1375,7 +1375,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      13
+      14
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1385,7 +1385,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      14
+      15
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -1395,7 +1395,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      15
+      16
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
