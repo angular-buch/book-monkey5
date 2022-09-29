@@ -1659,7 +1659,7 @@
     <td class="d2h-del d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    return this.<del>books</del>.<del>find</del>(<del>book =&gt; book</del>.isbn <del>===</del> <del>isbn</del>);</span>
+            <span class="d2h-code-line-ctn">    return this.<del>books</del>.<del>find</del>(<del>book =&gt; book</del>.isbn<del> === isbn</del>);</span>
         </div>
     </td>
 </tr><tr>
@@ -2083,7 +2083,7 @@
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  <ins>remove</ins>(isbn: string): <ins>Observable&lt;string&gt;</ins> {</span>
+            <span class="d2h-code-line-ctn">  <ins>remove</ins>(isbn: string): <ins>Observable&lt;unknown&gt;</ins> {</span>
         </div>
     </td>
 </tr><tr>
@@ -2093,7 +2093,7 @@
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    return this.<ins>http</ins>.<ins>delete</ins>(<ins>`${this</ins>.<ins>apiUrl}&#x2F;books&#x2F;${</ins>isbn<ins>}`,</ins> <ins>{</ins> <ins>responseType: &#x27;text&#x27; }</ins>);</span>
+            <span class="d2h-code-line-ctn">    return this.<ins>http</ins>.<ins>delete</ins>(<ins>`${this</ins>.<ins>apiUrl}&#x2F;books&#x2F;${</ins>isbn<ins>}`</ins>);</span>
         </div>
     </td>
 </tr><tr>
