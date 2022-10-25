@@ -3349,7 +3349,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">import { FormArray, ValidatorFn } from &#x27;@angular&#x2F;forms&#x27;;</span>
+            <span class="d2h-code-line-ctn">import { isFormArray, ValidatorFn } from &#x27;@angular&#x2F;forms&#x27;;</span>
         </div>
     </td>
 </tr><tr>
@@ -3529,7 +3529,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">  if (!(control instanceof FormArray)) {</span>
+            <span class="d2h-code-line-ctn">  if (!isFormArray(control)) {</span>
         </div>
     </td>
 </tr><tr>
