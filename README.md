@@ -42,7 +42,7 @@ Hier finden sie alle Zwischenstände des BookMonkey 5:
 * __Kapitel 15 – Reaktive Programmierung mit RxJS__
   * [Demo](https://08-rxjs-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/08-rxjs)
-* __Kapitel 16 – Interceptoren: HTTP-Requests abfangen und transformieren__
+* __Kapitel 16 – Interceptors: HTTP-Requests abfangen und transformieren__
   * [Demo](https://09-interceptors-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/09-interceptors)
 * __Kapitel 18 – Template-Driven Forms__
@@ -66,9 +66,12 @@ Hier finden sie alle Zwischenstände des BookMonkey 5:
 * __Kapitel 24 – Guards: Routen absichern__
   * [Demo](https://16-guards-bm5.angular-buch.com)
   * [Quelltext auf GitHub](https://github.com/book-monkey5/16-guards)
-<!--* __Kapitel ?? – I18N: Internationalisierung__
-  * Demo (TODO)
-  * Quelltext auf GitHub (TODO)-->
+* __Kapitel 25 – Standalone Components__
+  * [Demo](https://17-standalone-bm5.angular-buch.com)
+  * [Quelltext auf GitHub](https://github.com/book-monkey5/17-standalone)
+* __Kapitel XX – i18n: Internationalisierung__
+  * [Demo](https://16c-i18n-bm5.angular-buch.com)
+  * [Quelltext auf GitHub](https://github.com/book-monkey5/16c-i18n)
 * __Kapitel 26.4 – Oberflächentests mit Cypress__
   * [Quelltext auf GitHub](https://github.com/book-monkey5/99-cypress)
 * __Kapitel XX – Server-Side Rendering mit Angular Universal__
@@ -96,9 +99,9 @@ Auch für diese HTTP-Schnittstelle stellen wir den Quelltext bereit:
 
 Der BookMonkey verwendet die vorbereiteten Stylesheets aus dem NPM-Paket __book-monkey-styles__. Den Quelltext stellen wir hier bereit:
 
-* __book-monkey-styles__
-  * [Paket auf NPM](https://www.npmjs.com/package/book-monkey-styles)
-  * [Quelltext auf GitHub](https://github.com/angular-buch/book-monkey-styles)
+* __book-monkey5-styles__
+  * [Paket auf NPM](https://www.npmjs.com/package/book-monkey5-styles)
+  * [Quelltext auf GitHub](https://github.com/angular-buch/book-monkey5-styles)
 
 
 # Das Buch
