@@ -1,9 +1,9 @@
-> ## :warning: Achtung
+> ## :warning: Achtung: 4. Auflage (2023)
 > Dies ist das Beispielprojekt für das Angular-Buch der **4. Auflage**!
 Falls Sie eine andere Version des Buchs besitzen, finden Sie den Beispielcode in folgenden anderen Repositorys:
-> * [1. Auflage: `book-monkey2`](https://github.com/angular-buch/book-monkey2)
-> * [2. Auflage: `book-monkey3`](https://github.com/angular-buch/book-monkey3)
-> * [3. Auflage: `book-monkey4`](https://github.com/angular-buch/book-monkey4)
+> * [1. Auflage (2017): `book-monkey2`](https://github.com/angular-buch/book-monkey2)
+> * [2. Auflage (2019): `book-monkey3`](https://github.com/angular-buch/book-monkey3)
+> * [3. Auflage (2020): `book-monkey4`](https://github.com/angular-buch/book-monkey4)
 
 
 # BookMonkey 5
