@@ -351,7 +351,7 @@
                     <tr>
     <td class="d2h-code-side-linenumber d2h-info"></td>
     <td class="d2h-info">
-        <div class="d2h-code-side-line">@@ -1,17 +1,7 @@</div>
+        <div class="d2h-code-side-line">@@ -1,19 +1,7 @@</div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
@@ -390,7 +390,7 @@
     <td class="d2h-del d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;<del>img *ngIf=&quot;</del>book<del>.thumbnailUrl&quot;</del> [<del>src</del>]=&quot;book<del>.thumbnailUrl</del>&quot;<del> alt=&quot;Cover&quot;</del>&gt;</span>
+            <span class="d2h-code-line-ctn">    &lt;<del>div</del> <del>class</del>=&quot;list-item<del>&quot;</del>&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -400,7 +400,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;h2&gt;{{ book.title }}&lt;&#x2F;h2&gt;</span>
+            <span class="d2h-code-line-ctn">      &lt;img *ngIf=&quot;book.thumbnailUrl&quot; [src]=&quot;book.thumbnailUrl&quot; alt=&quot;Cover&quot;&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -410,7 +410,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;p role=&quot;doc-subtitle&quot; *ngIf=&quot;book.subtitle&quot;&gt;</span>
+            <span class="d2h-code-line-ctn">      &lt;h2&gt;{{ book.title }}&lt;&#x2F;h2&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -420,7 +420,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">      {{ book.subtitle }}</span>
+            <span class="d2h-code-line-ctn">      &lt;p role=&quot;doc-subtitle&quot; *ngIf=&quot;book.subtitle&quot;&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -430,7 +430,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;&#x2F;p&gt;</span>
+            <span class="d2h-code-line-ctn">        {{ book.subtitle }}</span>
         </div>
     </td>
 </tr><tr>
@@ -440,7 +440,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;ul class=&quot;comma-list&quot;&gt;</span>
+            <span class="d2h-code-line-ctn">      &lt;&#x2F;p&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -450,7 +450,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">      &lt;li *ngFor=&quot;let author of book.authors&quot;&gt;</span>
+            <span class="d2h-code-line-ctn">      &lt;ul class=&quot;comma-list&quot;&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -460,7 +460,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">      {{ author }}</span>
+            <span class="d2h-code-line-ctn">        &lt;li *ngFor=&quot;let author of book.authors&quot;&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -470,7 +470,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;&#x2F;li&gt;</span>
+            <span class="d2h-code-line-ctn">        {{ author }}</span>
         </div>
     </td>
 </tr><tr>
@@ -480,7 +480,7 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;&#x2F;ul&gt;</span>
+            <span class="d2h-code-line-ctn">      &lt;&#x2F;li&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -490,12 +490,32 @@
     <td class="d2h-del">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">-</span>
-            <span class="d2h-code-line-ctn">    &lt;div&gt;ISBN {{ book.isbn }}&lt;&#x2F;div&gt;</span>
+            <span class="d2h-code-line-ctn">      &lt;&#x2F;ul&gt;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-del">
+      15
+    </td>
+    <td class="d2h-del">
+        <div class="d2h-code-side-line">
+            <span class="d2h-code-line-prefix">-</span>
+            <span class="d2h-code-line-ctn">      &lt;div&gt;ISBN {{ book.isbn }}&lt;&#x2F;div&gt;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-del">
+      16
+    </td>
+    <td class="d2h-del">
+        <div class="d2h-code-side-line">
+            <span class="d2h-code-line-prefix">-</span>
+            <span class="d2h-code-line-ctn">    &lt;&#x2F;div&gt;</span>
         </div>
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      15
+      17
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -505,7 +525,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      16
+      18
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -515,7 +535,7 @@
     </td>
 </tr><tr>
     <td class="d2h-code-side-linenumber d2h-cntx">
-      17
+      19
     </td>
     <td class="d2h-cntx">
         <div class="d2h-code-side-line">
@@ -574,7 +594,27 @@
     <td class="d2h-ins d2h-change">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">    &lt;<ins>bm-</ins>book<ins>-list-item</ins> [<ins>book</ins>]=&quot;book&quot;<ins>&gt;&lt;&#x2F;bm-book-list-item</ins>&gt;</span>
+            <span class="d2h-code-line-ctn">    &lt;<ins>bm-book-list-item</ins> <ins>[book]</ins>=&quot;<ins>book&quot;&gt;&lt;&#x2F;bm-book-</ins>list-item&gt;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
+      
+    </td>
+    <td class="d2h-cntx d2h-emptyplaceholder">
+        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
+        </div>
+    </td>
+</tr><tr>
+    <td class="d2h-code-side-linenumber d2h-code-side-emptyplaceholder d2h-cntx d2h-emptyplaceholder">
+      
+    </td>
+    <td class="d2h-cntx d2h-emptyplaceholder">
+        <div class="d2h-code-side-line d2h-code-side-emptyplaceholder">
+            <span class="d2h-code-line-prefix">&nbsp;</span>
+            <span class="d2h-code-line-ctn"><br></span>
         </div>
     </td>
 </tr><tr>
@@ -887,7 +927,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">&lt;ng-container *ngIf=&quot;book&quot;&gt;</span>
+            <span class="d2h-code-line-ctn">&lt;div *ngIf=&quot;book&quot; class=&quot;list-item&quot;&gt;</span>
         </div>
     </td>
 </tr><tr>
@@ -1007,7 +1047,7 @@
     <td class="d2h-ins">
         <div class="d2h-code-side-line">
             <span class="d2h-code-line-prefix">+</span>
-            <span class="d2h-code-line-ctn">&lt;&#x2F;ng-container&gt;</span>
+            <span class="d2h-code-line-ctn">&lt;&#x2F;div&gt;</span>
         </div>
     </td>
 </tr>
