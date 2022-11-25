@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}BookMonkey 5 </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <link rel="stylesheet" href="assets/style.css" media="screen">
+  <link href="{{ "/assets/favicon.ico" | relative_url }}" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+</head>
+<body class="markdown-body">
+  {{ content }}
+</body>
+</html>

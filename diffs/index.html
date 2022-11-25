@@ -1,33 +1,31 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>BookMonkey 5 Differenzansicht</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-  <link rel="stylesheet" href="assets/style.css" media="screen"></head>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-</head>
-<body class="markdown-body">
-  <h1>BookMonkey 5 Diffs</h1>
+---
+layout: default
+title: Differenzansicht
+diffRows: # wird von diff-Skript gefüllt
 
-  <p>
-    Für das Beispielprojekt <em>BookMonkey</em> bieten wir eine Differenzansicht an:
-    Zu jedem Kapitel können Sie auf dieser Seite die Änderungen im Code Schritt für Schritt nachvollziehen.
-    Dazu haben wir den Code jeweils mit dem Projekt aus dem vorherigen Kapitel verglichen.
-  </p>
+  - ["16-guards","00-base"]
+  - ["17-standalone","16-guards"]
+  - ["16a-cypress","16-guards"]
+---
 
-  <p>Beim Lesen des Buchs können Sie so stets überprüfen, ob Sie etwas vergessen haben.</p>
+<h1>BookMonkey 5 Diffs JEKYLL</h1>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Code aus Schritt</th>
-        <th>im Vergleich zu Schritt</th>
-      </tr>
-    </thead>
-    <tbody>
-       <tr><td><a href="01-components.html">01-components</a></td><td>00-base</td></tr> <tr><td><a href="02-property-binding.html">02-property-binding</a></td><td>01-components</td></tr> <tr><td><a href="03-event-binding.html">03-event-binding</a></td><td>02-property-binding</td></tr> <tr><td><a href="04-modules.html">04-modules</a></td><td>03-event-binding</td></tr> <tr><td><a href="05-di.html">05-di</a></td><td>04-modules</td></tr> <tr><td><a href="06-routing.html">06-routing</a></td><td>05-di</td></tr> <tr><td><a href="07-http.html">07-http</a></td><td>06-routing</td></tr> <tr><td><a href="08-rxjs.html">08-rxjs</a></td><td>07-http</td></tr> <tr><td><a href="09-interceptors.html">09-interceptors</a></td><td>08-rxjs</td></tr> <tr><td><a href="10-template-driven-forms.html">10-template-driven-forms</a></td><td>09-interceptors</td></tr> <tr><td><a href="11-reactive-forms.html">11-reactive-forms</a></td><td>10-template-driven-forms</td></tr> <tr><td><a href="12-validation.html">12-validation</a></td><td>11-reactive-forms</td></tr> <tr><td><a href="13-pipes.html">13-pipes</a></td><td>12-validation</td></tr> <tr><td><a href="14-directives.html">14-directives</a></td><td>13-pipes</td></tr> <tr><td><a href="15-lazyloading.html">15-lazyloading</a></td><td>14-directives</td></tr> <tr><td><a href="16-guards.html">16-guards</a></td><td>15-lazyloading</td></tr> <tr><td><a href="17-standalone.html">17-standalone</a></td><td>16-guards</td></tr> <tr><td><a href="16a-cypress.html">16a-cypress</a></td><td>16-guards</td></tr> <tr><td><a href="16b-l10n.html">16b-l10n</a></td><td>16-guards</td></tr> <tr><td><a href="16c-i18n.html">16c-i18n</a></td><td>16-guards</td></tr> <tr><td><a href="16d-docker.html">16d-docker</a></td><td>16-guards</td></tr> <tr><td><a href="16e-ngrx.html">16e-ngrx</a></td><td>16-guards</td></tr> <tr><td><a href="16f-ssr.html">16f-ssr</a></td><td>16-guards</td></tr> <tr><td><a href="16g-pwa.html">16g-pwa</a></td><td>16-guards</td></tr>
-    </tbody>
-  </table>
-</body>
-</html>
+<p>
+  Für das Beispielprojekt <em>BookMonkey</em> bieten wir eine Differenzansicht an:
+  Zu jedem Kapitel können Sie auf dieser Seite die Änderungen im Code Schritt für Schritt nachvollziehen.
+  Dazu haben wir den Code jeweils mit dem Projekt aus dem vorherigen Kapitel verglichen.
+</p>
+
+<p>Beim Lesen des Buchs können Sie so stets überprüfen, ob Sie etwas vergessen haben.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code aus Schritt</th>
+      <th>im Vergleich zu Schritt</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in page.diffRows %}<tr><td><a href="{{ row[0] }}.html">{{ row[0] }}</a></td><td>{{ row[1] }}</td></tr>{% endfor %}
+  </tbody>
+</table>
