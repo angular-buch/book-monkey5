@@ -1,0 +1,197 @@
+[
+  {
+    "key": "01-components",
+    "hideDemo": true,
+    "chapter": {
+      "number": 6,
+      "page": 1,
+      "title": "Komponenten: die Grundbausteine der Anwendung"
+    }
+  },
+  {
+    "key": "02-property-binding",
+    "chapter": {
+      "number": 7,
+      "page": 1,
+      "title": "Property Bindings: mit Komponenten kommunizieren"
+    }
+  },
+  {
+    "key": "03-event-binding",
+    "chapter": {
+      "number": 8,
+      "page": 1,
+      "title": "Event Bindings: Ereignisse in Komponenten verarbeiten"
+    }
+  },
+  {
+    "key": "04-modules",
+    "chapter": {
+      "number": 10,
+      "page": 1,
+      "title": "NgModule: die Anwendung modularisieren"
+    }
+  },
+  {
+    "key": "05-di",
+    "chapter": {
+      "number": 11,
+      "page": 1,
+      "title": "Dependency Injection: Code in Services auslagern"
+    }
+  },
+  {
+    "key": "06-routing",
+    "chapter": {
+      "number": 12,
+      "page": 1,
+      "title": "Routing: durch die Anwendung navigieren"
+    }
+  },
+  {
+    "key": "07-http",
+    "chapter": {
+      "number": 14,
+      "page": 1,
+      "title": "HTTP-Kommunikation: ein Server-Backend anbinden"
+    }
+  },
+  {
+    "key": "08-rxjs",
+    "chapter": {
+      "number": 15,
+      "page": 1,
+      "title": "Reaktive Programmierung mit RxJS"
+    }
+  },
+  {
+    "key": "09-interceptors",
+    "chapter": {
+      "number": 16,
+      "page": 1,
+      "title": "Interceptors: HTTP-Requests abfangen und transformieren"
+    }
+  },
+  {
+    "key": "10-template-driven-forms",
+    "chapter": {
+      "number": 18,
+      "page": 1,
+      "title": "Formulare mit Template-Driven Forms"
+    }
+  },
+  {
+    "key": "11-reactive-forms",
+    "chapter": {
+      "number": 19,
+      "page": 1,
+      "title": "Formulare mit Reactive Forms"
+    }
+  },
+  {
+    "key": "12-validation",
+    "chapter": {
+      "number": 20,
+      "page": 1,
+      "title": "Formularvalidierung: die Eingaben prüfen"
+    }
+  },
+  {
+    "key": "13-pipes",
+    "chapter": {
+      "number": 21,
+      "page": 1,
+      "title": "Pipes: Daten im Template formatieren"
+    }
+  },
+  {
+    "key": "14-directives",
+    "chapter": {
+      "number": 22,
+      "page": 1,
+      "title": "Direktiven: das Vokabular von HTML erweitern"
+    }
+  },
+  {
+    "key": "15-lazyloading",
+    "chapter": {
+      "number": 23,
+      "page": 1,
+      "title": "Lazy Loading: Angular-Module asynchron laden"
+    }
+  },
+  {
+    "key": "16-guards",
+    "chapter": {
+      "number": 24,
+      "page": 1,
+      "title": "Guards: Routen absichern"
+    }
+  },
+  {
+    "key": "17-standalone",
+    "chapter": {
+      "number": 25,
+      "page": 1,
+      "title": "Standalone Components: Komponenten ohne Module"
+    }
+  },
+  {
+    "key": "16a-cypress",
+    "hideDemo": true,
+    "chapter": {
+      "number": "26.7",
+      "page": 1,
+      "title": "TODO"
+    }
+  },
+  {
+    "key": "16b-l10n",
+    "chapter": {
+      "number": 28,
+      "page": 1,
+      "title": "Lokalisierung (l10n)"
+    }
+  },
+  {
+    "key": "16c-i18n",
+    "chapter": {
+      "number": 29,
+      "page": 1,
+      "title": "Internationalisierung (i18n)"
+    }
+  },
+  {
+    "key": "16d-docker",
+    "hideDemo": true,
+    "chapter": {
+      "number": 31,
+      "page": 1,
+      "title": "Angular-Anwendungen mit Docker bereitstellen"
+    }
+  },
+  {
+    "key": "16e-ngrx",
+    "chapter": {
+      "number": 32,
+      "page": 1,
+      "title": "State Management mit Redux und NgRx"
+    }
+  },
+  {
+    "key": "16f-ssr",
+    "chapter": {
+      "number": 33,
+      "page": 1,
+      "title": "Server-Side Rendering mit Angular Universal"
+    }
+  },
+  {
+    "key": "16g-pwa",
+    "chapter": {
+      "number": 34,
+      "page": 1,
+      "title": "Progressive Web Apps (PWA)"
+    }
+  }
+]

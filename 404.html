@@ -2,23 +2,60 @@
 layout: default
 ---
 
-<h1>BookMonkey 5</h1>
-<img src="https://cdn.ng-buch.de/cover/angular4.jpg" width="300">
+<div class="header-container">
+  <div class="image"><img src="assets/book-cover-v4.png" alt="Coverbild des Angular-Buchs in der 4. Auflage"></div>
+  <div class="text">
+    <h1>BookMonkey 5</h1>
+    <p>Auf dieser Seite finden Sie alle Ressourcen rund um das Beispielprojekt <strong>BookMonkey</strong> aus dem <strong>Angular-Buch in der 4. Auflage</strong>.
+    Neben einer Live-Demo können Sie die Änderungen am Quellcode mit unserer Differenzansicht nachvollziehen.</p>
+    <p><strong>Alle Infos zum Buch finden Sie auf unserer Website: <a href="https://angular-buch.com" target="_blank">angular-buch.com</a></strong></p>
+  </div>
+</div>
 
-<h2>Willkommen</h2>
+
+<h2>Alle Zwischenstände</h2>
+
+<p><a href="diffs/">Zur Liste mit allen Differenzansichten</a></p>
+
+<table class="projects">
+  <thead>
+    <tr>
+      <th>Projekt</th>
+      <th>Verweise</th>
+      <th>Kapitel im Buch</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for project in site.data.bm %}
+    <tr>
+      <td><strong>{{ project.key }}</strong></td>
+      <td>
+        <ul>
+        {% unless project.hideDemo %}<li><a href="https://{{ project.key }}-bm5.angular-buch.com" target="_blank" class="icon demo">Demo</a></li>{% endunless %}
+        <li><a href="https://github.com/book-monkey5/{{ project.key }}" target="_blank" rel="noreferer noopener" class="icon github">Code auf GitHub</a></li>
+        <li><a href="/diffs/{{ project.key }}.html" class="icon diff">Diff</a></li>
+      </td>
+      <td>
+        Kapitel {{ project.chapter.number }} (Seite {{ project.chapter.page }})<br>
+        <small>{{ project.chapter.title }}</small>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <p>
-Der "BookMonkey 5" ist das Demo-Projekt zum deutschsprachigen Buch "Angular" (4. Auflage).
+  Sie haben einen Fehler entdeckt oder haben Fragen und Anregungen zum Buch?<br>
+  <strong>
+    Bitte schreiben Sie uns:
+    <a href="mailto:team@angular-buch.com">team@angular-buch.com</a>
+  </strong>
 </p>
 
-<ol>
-  <li>
-    <a href="diffs/">BookMonkey 5 Diffs</a>
-  </li>
-  <li>
-    <a href="https://github.com/angular-buch/book-monkey5">Alle Zwischenstände des BookMonkey 5</a>
-  </li>
-  <li>
-    Lesen Sie mehr auf <a href="https://angular-buch.com/">angular-buch.com</a>.
-  </li>
-</ol>
+
+<footer>
+  <strong>Angular-Buch-Team</strong> |
+  <strong>Ferdinand Malcher, Danny Koppenhagen, Johannes Hoppe</strong><br>
+  <a href="https://angular-buch.com/impressum" target="_blank">Impressum</a> |
+  <a href="https://angular-buch.com/datenschutz" target="_blank">Datenschutz</a>
+</footer>
