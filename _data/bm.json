@@ -192,5 +192,13 @@
       "page": 761,
       "title": "Progressive Web Apps (PWA)"
     }
+  },
+  {
+    "key": "18-modern-angular",
+    "chapter": {
+      "number": "",
+      "page": "",
+      "title": "Modern Angular"
+    }
   }
 ]
