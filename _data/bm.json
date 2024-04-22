@@ -195,10 +195,9 @@
   },
   {
     "key": "18-modern-angular",
-    "chapter": {
-      "number": "",
-      "page": "",
-      "title": "Modern Angular"
+    "link": {
+      "label": "<strong>Blogartikel:</strong> Book Monkey v5: Modern Angular",
+      "url": "https://angular-buch.com/blog"
     }
   }
 ]

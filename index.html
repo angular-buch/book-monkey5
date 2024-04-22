@@ -36,8 +36,14 @@ layout: default
         <li><a href="/diffs/{{ project.key }}.html" class="icon diff">Diff</a></li>
       </td>
       <td>
+        {% if project.chapter %}
         Kapitel {{ project.chapter.number }} (Seite {{ project.chapter.page }})<br>
         <small>{{ project.chapter.title }}</small>
+        {% endif %}
+
+        {% if project.link %}
+        <a href="{{ project.link.url }}" target="_blank">{{ project.link.label }}</a>
+        {% endif %}
       </td>
     </tr>
     {% endfor %}
